@@ -1,7 +1,62 @@
 body{
-  background-attachment: scroll;
-  background-size:cover;
   background-image:
-  url("https://s-media-cache-ak0.pinimg.com/originals/2c/40/13/2c401391a9ab563acbca1731dcd1d636.jpg");}
-
+  url("http://wallpapercave.com/wp/QwMM79Z.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
 }
+.h1{
+  font-size: 35px;
+  color:white;
+  text-align: center;
+font-style: oblique;
+}
+.intro{
+  color:white;
+  text-align: center;
+  font-size: 30px;
+}
+.button {
+display: block;
+width:15%;
+margin:0 auto;
+position:relative;
+font-size: 15px;
+font-style:oblique;;
+font-weight:normal;
+}
+button:hover{
+  background-color:rgb(68, 79, 142)
+;
+}
+.around{
+  text-align: center;
+  font-family:font-family: verdana;
+    font-size: 25px;
+    font-style: oblique;
+    color: white;
+  }
+.h2{
+  font-size: 30px;
+  color:white;
+  text-align: center;
+font-style: oblique;
+}
+.page2{
+  color:white;
+  text-align: center;
+  font-size: 30px;
+}
+.fillin{
+  color:white;
+  text-align: center;
+  font-size: 30px;}
+input{
+width:15%;
+font-size: 25px;
+font-family:font-family: verdana;
+font-style:oblique;
+font-weight:normal;
+background-color: #001f3f
+;
+color:white;
+  }
