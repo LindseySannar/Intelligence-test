@@ -25,8 +25,8 @@ font-style:oblique;;
 font-weight:normal;
 }
 button:hover{
-  background-color:rgb(68, 79, 142)
-;
+  background-color:#282D43;
+  color:white;
 }
 .around{
   text-align: center;
@@ -46,17 +46,18 @@ font-style: oblique;
   text-align: center;
   font-size: 30px;
 }
-.fillin{
+.fillin
+{
   color:white;
   text-align: center;
-  font-size: 30px;}
-input{
+  font-size: 30px;
+}
+input
+{
 width:15%;
-font-size: 25px;
 font-family:font-family: verdana;
-font-style:oblique;
-font-weight:normal;
-background-color: #001f3f
-;
+font-size: 25px;
+font-style: oblique;
+background-color: #282D43;
 color:white;
-  }
+}
