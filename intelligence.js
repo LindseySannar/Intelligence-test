@@ -96,30 +96,31 @@ if(getAnswer3=="Reviled"){
         document.getElementById("question6").style.color = "green";
         document.getElementById("response6").innerHTML = "Correct!";
       }
+    }
 function setCookie(cname, cvalue, exdays) {
-  var d = new Date();
+var d = new Date();
   d.setTime(d.getTime() + (exdays*24*60*60*1000));
-  var expires = "expires="+d.toUTCString();
-  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+ var expires = "expires="+d.toUTCString();
+document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
 function getCookie(cname) {
-  var name = cname + "=";
+var name = cname + "=";
   var ca = document.cookie.split(';');
   for(var i = 0; i < ca.length; i++) {
     var c = ca[i];
     while (c.charAt(0) == ' ') {
       c = c.substring(1);
     }
-    if (c.indexOf(name) == 0) {
-      return c.substring(name.length, c.length);
-    }
+  if (c.indexOf(name) == 0) {
+    return c.substring(name.length, c.length);
+   }
   }
   return "";
 }
 
 function calculateScore(){
-  
-        }
+
+}
 
 // create class for colors for the border of the answer
 //add or remove under the
