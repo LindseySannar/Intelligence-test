@@ -25,9 +25,12 @@ font-size: 18px;
 font-style:oblique;;
 font-weight:normal;
 }
+/* once again to stockOverflow for helping me figure out how to format a button*/
+/*http://stackoverflow.com/questions/7297174/html-button-styles*/
 button:hover{
   background-color:#282D43;
   color:white;
+  /* thanks to http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF for the ability to customize css colors */
 }
 .around{
   text-align: center;
@@ -79,6 +82,14 @@ opacity: 0.5;
   color: green;
 }
 .response4style{
+  font-size: 18px;
+  color: green;
+}
+.response5style{
+  font-size: 18px;
+  color: green;
+}
+.response6style{
   font-size: 18px;
   color: green;
 }

@@ -13,13 +13,20 @@
 </div>
   <p class="page2"> Admirer&nbsp;&nbsp;=&nbsp; Married</p>
   <p> <form class="fillin">
-    Lever&nbsp;=&nbsp;<input type="text" name="puzzle1">
-  </form></p>
+    Lever&nbsp;=&nbsp;
+    <input style="font-family:Times;" type="text" name="puzzle1" id="question5" oninput="validateAnswer5();"/>
+    <span id="response5" class="response5style"></span>
+    <span id="wrongresponse5" class="wrongresponse5style"></span>
+  </p>
   <p class="page2">Earth&nbsp;&nbsp;=&nbsp;Heart </p>
   <p class="page2">Gateman&nbsp;&nbsp;=&nbsp;Nametag</p>
-<p> <form class="fillin">
-Toaster&nbsp;=&nbsp;<input type="text" name="puzzle1">
-</form></p>
-<button type="button" class="button" onclick=" ">continue</button>
+<p>
+Toaster&nbsp;=&nbsp;
+<input style="font-family:Times;" type="text" name="puzzle1" id="question6" oninput="validateAnswer6();"/>
+<span id="response6" class="response6style"></span>
+<span id="wrongresponse6" class="wrongresponse6style"></span>
+</p>
+<button type="button" class="button" onclick="window.location.href='results.html'">continue</button>
+</form>
 </body>
 </html>
