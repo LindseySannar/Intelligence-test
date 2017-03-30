@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <!--Lindsey Sannar-->
 <html>
-  <head>
-<meta charset="utf-8"/>
-<link rel="stylesheet" href="intelligence.css">
-<title>Intelligence Test </title>
-<script type="text/javascript" src="intelligence.js"></script>
+<head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="intelligence.css">
+  <title>Intelligence Test </title>
+  <script type="text/javascript" src="intelligence.js"></script>
 </head>
     <body>
   <div class="h2">
-  <h1> <b>Complete the Pattern:</b> </h1>
-    </div>
+  <h1><b>Complete the Pattern:</b> </h1>
+  </div>
     <p class="page2"> Cautioned&nbsp;&nbsp;=&nbsp; Education</p>
-      <p> <form class="fillin">
-    Creative&nbsp;=&nbsp;
-    <input type="text"name="puzzle1" id="question1" oninput="validateAnswer1();"/>
-  </form>
-  </p>
+      <p>
+        <form class="fillin">
+          Creative&nbsp;=&nbsp;
+          <input style="font-family:Times;" type="text" name="puzzle1" id="question1" oninput="validateAnswer1();"/>
+            <span id="response1" class="response1style"></span>
+            <span id="wrongresponse1" class="wrongresponse1style"></span>
+      </p>
+      <p class="page2">
+        Wander&nbsp;&nbsp;=&nbsp;Warned </p>
+        <p class="page2">
+          Listen&nbsp;&nbsp;=&nbsp;Silent
+        </p>
+      <p>
+          Leading&nbsp;=&nbsp;
+    <input style="font-family:Times;" type="text" name="puzzle1" id="question2" oninput="validateAnswer2();" />
+    <span id="response2" class="response2style"></span>
+    <span id="wrongresponse2" class="wrongresponse2style"></span>
+    </p>
+    <button type="button" class="button" onclick="window.location.href='intelligence3.html'">continue</button>
 
-  <p class="page2">Wander&nbsp;&nbsp;=&nbsp;Warned </p>
-
-  <p class="page2">Listen&nbsp;&nbsp;=&nbsp;Silent</p>
-
-      <p> <form class="fillin">
-
-Leading&nbsp;=&nbsp;<input type="text" name="puzzle1" id="question2" oninput="">
-      </form></p>
-</div>
-
-<button type="button" class="button" onclick="window.location.href='intelligence3.html'">continue</button>
-    </body>
+    </form>
+  </body>
 </html>

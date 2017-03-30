@@ -3,6 +3,7 @@ body{
   url("http://wallpapercave.com/wp/QwMM79Z.jpg");
   background-repeat: no-repeat;
   background-size:cover;
+  font-family: Times;
 }
 .h1{
   font-size: 35px;
@@ -30,7 +31,7 @@ button:hover{
 }
 .around{
   text-align: center;
-  font-family:font-family: verdana;
+  /* font-family: verdana; */
     font-size: 25px;
     font-style: oblique;
     color: white;
@@ -56,9 +57,28 @@ font-style: oblique;
 input
 {
 width:15%;
-font-family:font-family: verdana;
 font-size: 25px;
 color:#282D43;
 font-style: oblique;
 opacity: 0.5;
+}
+.response1style{
+  font-size: 18px;
+  color: green;
+}
+.wrongresponse1style{
+  font-size: 18px;
+  color:red;
+}
+.response2style{
+  font-size: 18px;
+  color: green;
+}
+.response3style{
+  font-size: 18px;
+  color: green;
+}
+.response4style{
+  font-size: 18px;
+  color: green;
 }
