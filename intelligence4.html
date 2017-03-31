@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <!--Lindsey Sannar-->
 <html>
-<head>
-<meta charset="utf-8"/>
-<link rel="stylesheet" href="intelligence.css">
-<title>Intelligence Test </title>
-<script type="text/javascript" src="intelligence.js"></script>
-</head>
-<body>
-  <div class="h2">
-  <h1><b>Complete the Pattern:</b></h1>
-</div>
-  <p class="page2"> Admirer&nbsp;&nbsp;=&nbsp; Married</p>
-  <p> <form class="fillin">
-    Lever&nbsp;=&nbsp;
-    <input style="font-family:Times;" type="text" name="puzzle1" id="question5" oninput="validateAnswer5();"/>
-    <span id="response5" class="response5style"></span>
-    <span id="wrongresponse5" class="wrongresponse5style"></span>
-  </p>
-  <p class="page2">Earth&nbsp;&nbsp;=&nbsp;Heart </p>
-  <p class="page2">Gateman&nbsp;&nbsp;=&nbsp;Nametag</p>
-<p>
-Toaster&nbsp;=&nbsp;
-<input style="font-family:Times;" type="text" name="puzzle1" id="question6" oninput="validateAnswer6();"/>
-<span id="response6" class="response6style"></span>
-<span id="wrongresponse6" class="wrongresponse6style"></span>
-</p>
-<button type="button" class="button" onclick="submitAnswer4();">continue</button>
-</form>
-</body>
+   <head>
+      <meta charset="utf-8">
+      <link href="intelligence.css" rel="stylesheet">
+      <title>
+         Intelligence Test
+      </title>
+      <script src="intelligence.js" type="text/javascript">
+      </script>
+   </head>
+   <body>
+      <div class="h2">
+         <h1>
+            <b>Complete the Pattern:</b>
+         </h1>
+      </div>
+      <p class="page2">
+         Admirer&nbsp;&nbsp;=&nbsp; Married
+      </p>
+      <p></p>
+      <form class="fillin">
+         Lever&nbsp;=&nbsp; <input id="question5" name="puzzle1" oninput="validateAnswer5();" style="font-family:Times;" type="text"> <span class="response5style" id="response5"></span> <span class="wrongresponse5style" id="wrongresponse5"></span>
+         <p></p>
+         <p class="page2">
+            Earth&nbsp;&nbsp;=&nbsp;Heart
+         </p>
+         <p class="page2">
+            Gateman&nbsp;&nbsp;=&nbsp;Nametag
+         </p>
+         <p>
+            Toaster&nbsp;=&nbsp; <input id="question6" name="puzzle1" oninput="validateAnswer6();" style="font-family:Times;" type="text"> <span class="response6style" id="response6"></span> <span class="wrongresponse6style" id="wrongresponse6"></span>
+         </p><button class="button" onclick="submitAnswer4();" type="button">continue</button>
+      </form>
+   </body>
 </html>

@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <!--Lindsey Sannar-->
 <html>
-<head>
-<meta charset="utf-8"/>
-<link rel="stylesheet" href="intelligence.css">
-<title>Intelligence Test </title>
-<script type="text/javascript" src="intelligence.js"></script>
-</head>
-<body>
-  <div class="h2">
-  <h1><b>Complete the Pattern:</b></h1>
-</div>
-  <p class="page2"> Mined&nbsp;&nbsp;=&nbsp; Denim</p>
-  <p> <form class="fillin">
-    Deliver&nbsp;=&nbsp;
-    <input style="font-family:Times;" type="text" name="puzzle1" id="question3" oninput="validateAnswer3();"/>
-      <span id="response3" class="response3style"></span>
-      <span id="wrongresponse3" class="wrongresponse3style"></span>
-  </p>
-  <p class="page2"> Decal&nbsp;&nbsp;=&nbsp;Laced</p>
-  <p class="page2">Diva&nbsp;&nbsp;=&nbsp;Avid</p>
-<p>
-Repaid&nbsp;=&nbsp;
-<input style="font-family:Times;" type="text" name="puzzle1" id="question4" oninput="validateAnswer4();"/>
-<span id="response4" class="response4style"></span>
-<span id="wrongresponse4" class="wrongresponse4style"></span>
-</p>
-<button type="button" class="button" onclick="submitAnswer3();">continue</button>
-</form>
-</body>
+   <head>
+      <meta charset="utf-8">
+      <link href="intelligence.css" rel="stylesheet">
+      <title>
+         Intelligence Test
+      </title>
+      <script src="intelligence.js" type="text/javascript">
+      </script>
+   </head>
+   <body>
+      <div class="h2">
+         <h1>
+            <b>Complete the Pattern:</b>
+         </h1>
+      </div>
+      <p class="page2">
+         Mined&nbsp;&nbsp;=&nbsp; Denim
+      </p>
+      <p></p>
+      <form class="fillin">
+         Deliver&nbsp;=&nbsp; <input id="question3" name="puzzle1" oninput="validateAnswer3();" style="font-family:Times;" type="text"> <span class="response3style" id="response3"></span> <span class="wrongresponse3style" id="wrongresponse3"></span>
+         <p></p>
+         <p class="page2">
+            Decal&nbsp;&nbsp;=&nbsp;Laced
+         </p>
+         <p class="page2">
+            Diva&nbsp;&nbsp;=&nbsp;Avid
+         </p>
+         <p>
+            Repaid&nbsp;=&nbsp; <input id="question4" name="puzzle1" oninput="validateAnswer4();" style="font-family:Times;" type="text"> <span class="response4style" id="response4"></span> <span class="wrongresponse4style" id="wrongresponse4"></span>
+         </p><button class="button" onclick="submitAnswer3();" type="button">continue</button>
+      </form>
+   </body>
 </html>

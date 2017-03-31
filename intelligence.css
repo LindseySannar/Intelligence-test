@@ -1,91 +1,93 @@
-body{
-  background-image:
-  url("http://wallpapercave.com/wp/QwMM79Z.jpg");
-  background-repeat: no-repeat;
-  background-size:cover;
-  font-family: Times;
+body {
+   background-image: url("http://wallpapercave.com/wp/QwMM79Z.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: Times;
 }
-.h1{
-  font-size: 35px;
-  color:white;
-  text-align: center;
-font-style: oblique;
+.h1 {
+   font-size: 35px;
+   color: white;
+   text-align: center;
+   font-style: oblique;
 }
-.intro{
-  color:white;
-  text-align: center;
-  font-size: 30px;
+.intro {
+   color: white;
+   text-align: center;
+   font-size: 30px;
 }
 .button {
-display: block;
-width:15%;
-margin:0 auto;
-position:relative;
-font-size: 18px;
-font-style:oblique;;
-font-weight:normal;
+   display: block;
+   width: 15%;
+   margin: 0 auto;
+   position: relative;
+   font-size: 18px;
+   font-style: oblique;
+   ;
+   font-weight: normal;
 }
+
 /* once again to stockOverflow for helping me figure out how to format a button*/
+
+
 /*http://stackoverflow.com/questions/7297174/html-button-styles*/
-button:hover{
-  background-color:#282D43;
-  color:white;
-  /* thanks to http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF for the ability to customize css colors */
+
+button:hover {
+   background-color: #282D43;
+   color: white;
+   /* thanks to http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF for the ability to customize css colors */
 }
-.around{
-  text-align: center;
-  /* font-family: verdana; */
-    font-size: 25px;
-    font-style: oblique;
-    color: white;
-  }
-.h2{
-  font-size: 30px;
-  color:white;
-  text-align: center;
-font-style: oblique;
+.around {
+   text-align: center;
+   /* font-family: verdana; */
+   font-size: 25px;
+   font-style: oblique;
+   color: white;
 }
-.page2{
-  color:white;
-  text-align: center;
-  font-size: 30px;
+.h2 {
+   font-size: 30px;
+   color: white;
+   text-align: center;
+   font-style: oblique;
 }
-.fillin
-{
-  margin: auto;
-  color:white;
-  text-align: center;
-  font-size: 30px;
+.page2 {
+   color: white;
+   text-align: center;
+   font-size: 30px;
 }
-input
-{
-width:15%;
-font-size: 25px;
-color:#282D43;
-font-style: oblique;
-opacity: 0.5;
+.fillin {
+   margin: auto;
+   color: white;
+   text-align: center;
+   font-size: 30px;
 }
-.response1style{
-  font-size: 20px;
-  color: green;
+input {
+   width: 15%;
+   font-size: 25px;
+   color: #282D43;
+   font-style: oblique;
+   opacity: 0.5;
 }
-.response2style{
-  font-size: 20px;
-  color: green;
+.response1style {
+   font-size: 20px;
+   color: green;
 }
-.response3style{
-  font-size: 20px;
-  color: green;
+.response2style {
+   font-size: 20px;
+   color: green;
 }
-.response4style{
-  font-size: 20px;
-  color: green;
+.response3style {
+   font-size: 20px;
+   color: green;
 }
-.response5style{
-  font-size: 20px;
-  color: green;
+.response4style {
+   font-size: 20px;
+   color: green;
 }
-.response6style{
-  font-size: 20px;
-  color: green;
+.response5style {
+   font-size: 20px;
+   color: green;
+}
+.response6style {
+   font-size: 20px;
+   color: green;
 }

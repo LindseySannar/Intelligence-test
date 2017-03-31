@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <!--Lindsey Sannar-->
 <html>
-<head>
-  <meta charset="utf-8"/>
-  <link rel="stylesheet" href="intelligence.css">
-  <title>Intelligence Test </title>
-  <script type="text/javascript" src="intelligence.js"></script>
-</head>
-    <body>
-  <div class="h2">
-  <h1> <b>Complete the Pattern:</b> </h1>
-  </div>
-    <p class="page2"> Cautioned&nbsp;&nbsp;=&nbsp; Education</p>
-      <p>
-        <form class="fillin">
-          Creative&nbsp;=&nbsp;
-          <input style="font-family:Times;" type="text" name="puzzle1" id="question1" oninput="validateAnswer1();"/>
-            <span id="response1" class="response1style"></span>
-         <span id="wrongresponse1" class="wrongresponse1style"></span>
-      </p>
+   <head>
+      <meta charset="utf-8">
+      <link href="intelligence.css" rel="stylesheet">
+      <title>
+         Intelligence Test
+      </title>
+      <script src="intelligence.js" type="text/javascript">
+      </script>
+   </head>
+   <body>
+      <div class="h2">
+         <h1>
+            <b>Complete the Pattern:</b>
+         </h1>
+      </div>
       <p class="page2">
-        Wander&nbsp;&nbsp;=&nbsp;Warned </p>
-        <p class="page2">
-          Listen&nbsp;&nbsp;=&nbsp;Silent
-        </p>
-      <p>
-          Leading&nbsp;=&nbsp;
-    <input style="font-family:Times;" type="text" name="puzzle1" id="question2" oninput="validateAnswer2();" />
-    <span id="response2" class="response2style"></span>
-    <span id="wrongresponse2" class="wrongresponse2style"></span>
-    </p>
-    <button type="button" class="button" onclick="submitAnswer2();">continue</button>
-
-    </form>
-  </body>
+         Cautioned&nbsp;&nbsp;=&nbsp; Education
+      </p>
+      <p></p>
+      <form class="fillin">
+         Creative&nbsp;=&nbsp; <input id="question1" name="puzzle1" oninput="validateAnswer1();" style="font-family:Times;" type="text"> <span class="response1style" id="response1"></span> <span class="wrongresponse1style" id="wrongresponse1"></span>
+         <p></p>
+         <p class="page2">
+            Wander&nbsp;&nbsp;=&nbsp;Warned
+         </p>
+         <p class="page2">
+            Listen&nbsp;&nbsp;=&nbsp;Silent
+         </p>
+         <p>
+            Leading&nbsp;=&nbsp; <input id="question2" name="puzzle1" oninput="validateAnswer2();" style="font-family:Times;" type="text"> <span class="response2style" id="response2"></span> <span class="wrongresponse2style" id="wrongresponse2"></span>
+         </p><button class="button" onclick="submitAnswer2();" type="button">continue</button>
+      </form>
+   </body>
 </html>
